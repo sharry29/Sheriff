@@ -1,0 +1,14 @@
+{
+  "name": "sheriff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "sheriff_test"
+  },
+  "author": "Harry Smith",
+  "license": "ISC",
+  "dependencies": {
+    "server": "^1.0.18"
+  }
+}
