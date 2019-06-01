@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "sheriff_test"
   },
   "author": "Harry Smith",
   "license": "ISC",
   "dependencies": {
-    "server": "^1.0.18"
+    "server": "^1.0.18",
+    "xss": "^1.0.6"
   }
 }
