@@ -28,6 +28,8 @@ socket.on('count', function (data) {
 // {user : 'username', message : 'text'}
 socket.on('message', function (data) {
 	$('.chat').append('<p><strong>' + data.user + '</strong>: ' + data.message + '</p>');
+	var objSection = document.getElementById("chatbox");
+	objSection.scrollTop = objSection.scrollHeight;
 });
 
 // On a user joining the chatroom
